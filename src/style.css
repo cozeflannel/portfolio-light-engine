@@ -1,0 +1,17 @@
+/* body { margin: 0; overflow: hidden; background-color: #000; } */
+
+
+@font-face {
+    font-family: 'RetroFamous';
+    /* Pointing to the .ttf file we just downloaded */
+    src: url('/fonts/RetroFamous.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: 'RetroFamous', sans-serif;
+}
